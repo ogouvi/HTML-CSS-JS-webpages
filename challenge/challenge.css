@@ -1,0 +1,213 @@
+body
+{
+ 
+  padding: 0;
+  margin: 0;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+
+header
+{
+  width:100%;
+  height:770px;
+  background-color: #114252;
+  color: white;
+  margin-bottom:30px; 
+}
+nav{
+  box-shadow: 0px 1px 10px #041b22;
+  padding:20px;
+  padding-bottom: 50px
+}
+
+
+
+.logo a
+{
+  float: left;
+  margin-bottom:0;
+  padding-left:30px;
+  text-transform: uppercase;
+ text-decoration: none;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 1,5px;
+  color: #fff;
+}
+
+ul
+{
+  float: right;
+  padding-right:50px;
+  margin: 0;
+}
+ul li
+{
+list-style: none;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+display: inline-block;
+
+}
+ ul li a{
+   margin:20px;
+   text-decoration: none;
+   color: #fff;
+   font-size: 15px;
+ }
+
+ .connexion
+ {
+   background-color: #EC202B;
+   border-radius: 5px;
+   padding: 5px;
+    width: 150px;
+    height: 25px;
+     text-align: center
+ }
+
+ #under_nav
+ {
+   margin-top: 150px;
+
+ }
+ #notation
+ {
+   float: left;
+   margin-left: 200px;
+ }
+ #welcome
+ {
+   font-size: 50px;
+   font-stretch: condensed;     
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+ }
+ #slogan
+ {
+   font-size: 30px;
+ }
+
+ #Download
+ {
+ cursor: pointer;
+ width: 150px;
+     height: 30px;
+   text-align: center;
+     padding: auto;
+ }
+
+ #iphone
+ {
+  width: 50px;
+  height: 50px;
+  float:right;
+  margin-right:500px;
+     margin-top: 20px;
+    
+ }
+.paragraph
+{
+    padding: 30px 80px;
+}
+.paragraph #title
+{ 
+  font-size: 33px;
+  color: rgb(122, 120, 120);
+    margin:5px;
+      
+   
+}
+hr
+  {
+  width: 100px;
+  height:7px;
+    margin: 0px;
+    background-color:  #EC202B;
+ }
+
+#text
+{
+  font-size:15px;
+  letter-spacing:0px;
+  font-weight: bold ;
+  color: rgb(122, 120, 120);
+  width: 60em ; 
+    margin-top:20px;
+}
+.team-section{
+ background:#e8e8e8
+}
+.inner-width h1
+{
+    font-size: 30px;
+}
+
+.inner-width{
+  max-width: 1200px;
+  margin-left: 80px;
+  padding: 40px;
+  color: rgb(122, 120, 120);
+  overflow: hidden;
+}
+
+.pe{
+  float: left;
+  width: calc(100% / 3);
+  overflow: hidden;
+  padding: 40px 0;
+  transition: 0.4s;
+}
+
+.pe img{
+  overflow:hidden;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  border-radius:80px;
+  border:1px solid #EC202B;
+  width: 100px;
+  height:100px;
+  background-size: cover;
+margin: 0px;
+align-content: center;
+}
+.p-name{
+  margin: 11px 0;
+  padding-left: 20px;
+    font-family: roboto;
+}
+
+
+@media screen and (max-width:600px) {
+  .pe{
+    width: 100%;
+  }
+}
+
+.foot
+{
+    background:#114252; 
+     color: white;
+    font-family: roboto;
+    font-size: 20px;
+    height: 80px;
+    width: 100%;
+}
+.brand
+{
+    padding-top:30px;
+    margin-left: 40px;
+40px;
+    height: 1px;
+    width: 180px;
+}
+.term
+{
+    float: right
+}
+span .term
+{
+    display: inline;
+    padding-right: 100px;
+}
