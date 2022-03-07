@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif
+}
+.container {
+    width: 450px;
+    height:300px;
+    margin: 100px auto;
+    padding:20px;
+    background-image: url(./image/timer.jpg);
+    background-size: contain;
+    
+}
+.title {
+    font-size:2em;
+    font-weight: bold;
+    padding: 10px;
+    line-height:1.4;
+}
+  .counter {
+      margin:10px;
+     padding: 10px;
+  }
+ .tim,
+  span  {
+    display: inline;
+    font-size:40px;
+    font-weight:bold !important;
+
+}
+#dys{
+color: red;
+}
